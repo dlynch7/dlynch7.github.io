@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Daniel J. Lynch"
+title                    : "Dan Lynch"
 title_separator          : "-"
-name                     : &name "Daniel J. Lynch"
+name                     : &name "Dan Lynch"
 description              : &description "Postdoc and teaching assistant at Northwestern University"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://dlynch7.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -24,13 +24,13 @@ repository               : "dlynch7/dlynch7.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Daniel J. Lynch"
   pronouns         : "he/him/his"  
-  bio              : "Postdoc and teaching assistant at Northwestern University. My interests include limbed locomotion for robotic exploration in complex environments, and biomechanics"
+  bio              : "Postdoc and teaching assistant at Northwestern University. My interests include limbed locomotion for robotic exploration in complex environments, lower-limb prosthetics and orthotics, nonlinear dynamics and control, and a bit of fluid mechanics and soft-matter physics."
   location         : "Evanston, IL, USA"
   employer         : "Northwestern University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "daniellynch2021@u.northwestern.edu" 
 
   # Academic websites
   academia         : # URL
@@ -57,6 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
+  bandcamp         : danlynch1
   bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
@@ -66,7 +67,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : daniel-lynch-b29086442
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -84,12 +85,14 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+  # books:
+  #   title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  inprep:
+    title: 'In Preparation'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

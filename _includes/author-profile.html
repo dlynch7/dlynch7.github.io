@@ -99,6 +99,9 @@
       {% if author.artstation %}
         <li><a href="https://www.artstation.com/{{ author.artstation }}"><i class="fab fa-fw fa-artstation icon-pad-right" aria-hidden="true"></i>Artstation</a></li>
       {% endif %}        
+      {% if author.bandcamp %}
+        <li><a href="https:///{{ author.bandcamp }}.bandcamp.com"><i class="fab fa-fw fa-bandcamp icon-pad-right" aria-hidden="true"></i>Bandcamp</a></li>
+      {% endif %}        
       {% if author.bluesky %}
         <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fab fa-fw fa-bluesky icon-pad-right" aria-hidden="true"></i>Bluesky</a></li>
       {% endif %}

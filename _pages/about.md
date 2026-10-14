@@ -1,13 +1,30 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+My name is Dan Lynch, and I am a postdoc in Mechanical Engineering at Northwestern University (Evanston, IL).
+
+I completed my Ph.D. in Mechanical Engineering in September 2026, and my dissertation topic was "Dynamic Legged Robotic Locomotion on Yielding Terrain".
+I work under the supervision of Dr. Kevin M. Lynch (no relation!) and Dr. Paul B. Umbanhowar at the [Center for Robotics and Biosystems](https://robotics.northwestern.edu/) at Northwestern University.
+Besides Kevin and Paul, the other members of my committee were Jason Pusey (DEVCOM Army Research Laboratory) and Dr. Aaron M. Johnson (Carnegie Mellon University).
+My research has been [published](publications) in IEEE Transactions on Robotics and IEEE Robotics and Automation Letters, and I have [presented](talks) my work at the IEEE International Conference on Robotics and Automation, the American Control Conference, and the Global Physics Symposium (formerly the March Meeting) of the American Physical Society.
+
+As the title of my dissertation suggests, my research interests include limbed locomotion for robotic exploration in complex environments, but I am also interested in nonlinear dynamics, geometric mechanics and control, and a bit of fluid mechanics and soft-matter physics.
+I believe that engineers are obliged to put their skills to work for the betterment of all members of society, and this belief has led to a growing interest in lower-limb prosthetics, orthotics, and exoskeletons---devices that can help people with limb impairments to preserve their sense of agency, remain active in their communities, and continue to lead fulfilling lives.
+
+I believe [teaching](teaching) is another way to give back to society, and I have served as a teaching assistant for a number of courses at Northwestern University.
+I have also volunteered as a teacher at [Splash! At Northwestern](https://nusplash.learningu.org/), a yearly event where high school students from the greater Chicago area can enroll in small classes on subjects not typically taught in school, taught by undergrads, grad students, postdocs, and staff.
+
+Outside of research and teaching, I enjoy the outdoors and writing my own [music](danlynch1.bandcamp.com).
+
+
+
+<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
  You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
@@ -53,4 +70,4 @@ Example: editing a Markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
