@@ -20,7 +20,8 @@ I believe that engineers are obliged to put their skills to work for the betterm
 I believe [teaching](teaching) is another way to give back to society, and I have served as a teaching assistant for a number of courses at Northwestern University.
 I have also volunteered as a teacher at [Splash! At Northwestern](https://nusplash.learningu.org/), a yearly event where high school students from the greater Chicago area can enroll in small classes on subjects not typically taught in school, taught by undergrads, grad students, postdocs, and staff.
 
-Outside of research and teaching, I enjoy the outdoors and writing my own [music](danlynch1.bandcamp.com).
+Outside of research and teaching, I enjoy spending time outdoors hiking, sailing, birdwatching, and bugwatching.
+I also compose, record, and produce my own [music](danlynch1.bandcamp.com).
 
 
 
