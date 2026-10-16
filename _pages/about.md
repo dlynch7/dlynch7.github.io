@@ -8,16 +8,17 @@ redirect_from:
 ---
 
 My name is Dan Lynch, and I am a postdoc in Mechanical Engineering at Northwestern University (Evanston, IL).
+My research interests include limbed locomotion for robotic exploration in complex environments, nonlinear dynamics, geometric mechanics and control, and a bit of fluid mechanics and soft-matter physics.
 
 I completed my Ph.D. in Mechanical Engineering in September 2026, and my dissertation topic was "Dynamic Legged Robotic Locomotion on Yielding Terrain".
 I work under the supervision of Dr. Kevin M. Lynch (no relation!) and Dr. Paul B. Umbanhowar at the [Center for Robotics and Biosystems](https://robotics.northwestern.edu/) at Northwestern University.
 Besides Kevin and Paul, the other members of my committee were Jason Pusey (DEVCOM Army Research Laboratory) and Dr. Aaron M. Johnson (Carnegie Mellon University).
+
 My research has been [published](publications) in IEEE Transactions on Robotics and IEEE Robotics and Automation Letters, and I have [presented](talks) my work at the IEEE International Conference on Robotics and Automation, the American Control Conference, and the Global Physics Symposium (formerly the March Meeting) of the American Physical Society.
 
-As the title of my dissertation suggests, my research interests include limbed locomotion for robotic exploration in complex environments, but I am also interested in nonlinear dynamics, geometric mechanics and control, and a bit of fluid mechanics and soft-matter physics.
 I believe that engineers are obliged to put their skills to work for the betterment of all members of society, and this belief has led to a growing interest in lower-limb prosthetics, orthotics, and exoskeletons---devices that can help people with limb impairments to preserve their sense of agency, remain active in their communities, and continue to lead fulfilling lives.
 
-I believe [teaching](teaching) is another way to give back to society, and I have served as a teaching assistant for a number of courses at Northwestern University.
+I also believe [teaching](teaching) is another way to give back to society, and I have served as a teaching assistant and guest lecturer for a number of courses at Northwestern University.
 I have also volunteered as a teacher at [Splash! At Northwestern](https://nusplash.learningu.org/), a yearly event where high school students from the greater Chicago area can enroll in small classes on subjects not typically taught in school, taught by undergrads, grad students, postdocs, and staff.
 
 Outside of research and teaching, I enjoy spending time outdoors hiking, sailing, birdwatching, and bugwatching.
