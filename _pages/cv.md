@@ -34,7 +34,7 @@ Research experience
   * Supervisor: Prof. James Schmiedeler
 
 * Summer 2015: Undergraduate Researcher (University of Notre Dame - International Summer Undergraduate Research Experience)
-  * Collaborated with and hosted Tsinghua University engineering students on feasibility study of direct-drive valve actuation methods for Honeywell's Advanced Technology division, culminating in on-site presentation at Honeywell to engineering R&D team.
+  * Collaborated with visiting Tsinghua University undergraduate engineering students on feasibility study of direct-drive valve actuation methods for Honeywell's Advanced Technology division, culminating in on-site presentation at Honeywell to engineering R&D team.
   * Supervisor: Prof. Bill Goodwine
   
 Skills
