@@ -9,7 +9,7 @@ collection: portfolio
 My doctoral research on dynamic legged locomotion on yielding terrain called for a custom robot that could hop in the sagittal plane across a bed of granular media.
 This robot is a monopod, consisting of a body and a foot, coupled by a planar three-degree-of-freedom linkage actuated by three brushless DC (BLDC) motors.
 
-While the research accomplished with this robot is the subject of an [upcoming paper](../_publications/lynch20xxplanar.md) (in preparation), this portfolio entry goes into detail on the engineering that went into the robot.
+While the research accomplished with this robot is the subject of an [upcoming paper](../../publication/lynch20xxplanar) (in preparation), this portfolio entry goes into detail on the engineering that went into the robot.
 
 ## Robot Design Principles
 
