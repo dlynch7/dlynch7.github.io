@@ -22,7 +22,7 @@ I deeply enjoy [teaching](teaching), and I have served as a teaching assistant a
 I have also volunteered as a teacher at [Splash! At Northwestern](https://nusplash.learningu.org/), a yearly event where high school students from the greater Chicago area can enroll in small classes on subjects not typically taught in school, taught by undergrads, grad students, postdocs, and staff.
 
 Outside of research and teaching, I enjoy spending time outdoors hiking, sailing, birdwatching, and bugwatching.
-I also compose, record, and produce my own [music](danlynch1.bandcamp.com).
+I also compose, record, and produce my own [music](danlynch1.bandcamp.com), including a [short piece](https://danlynch1.bandcamp.com/track/lucy-music-for-the-nasa-mission) that NASA [featured](https://lucy.swri.edu/SoundscapeSamples.html) in coverage of their Lucy mission.
 
 
 
