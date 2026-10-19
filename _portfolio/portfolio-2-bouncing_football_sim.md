@@ -6,6 +6,7 @@ collection: portfolio
 
 This simple project combines a geometric integrator and event detection to simulate an American football (or a rugby ball!) tumbling through the air and bouncing on a hard surface.
 <img src='/images/bouncing_football_trace_CoM.svg'>
+You can get the source code from [my GitHub repo](https://github.com/dlynch7/geom_rbdyn_impacts/).
 
 This toy problem is a good application for so-called _geometric integrators_ that evolve the system configuration direction on the configuration manifold---SE(3), in this case---without relying on one or more charts of local coordinates.
 Anyone who has tried to chase and catch a bouncing football knows that it can tumble and bounce wildly enough that no one coordinate chart is likely to be sufficient for representing its configuration for all time.
