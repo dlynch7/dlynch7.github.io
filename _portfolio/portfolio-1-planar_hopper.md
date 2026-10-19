@@ -1,6 +1,6 @@
 ---
 title: "Robotic Testbed for Research on Dynamic Legged Locomotion on Yielding Terrain"
-excerpt: "I designed and built this robot leg (with help from several teammates in Robot Design Studio 2018) to serve as an experimental testbed for the latter half of my doctoral research.<br/><img src='/images/planar_hopping.gif' width='500'>"
+excerpt: "I designed and built this robot leg to serve as an experimental testbed for the latter half of my doctoral research.<br/><img src='/images/planar_hopping.gif' width='500'>"
 collection: portfolio
 ---
 
@@ -11,6 +11,8 @@ You can see it in action here:
 <img src='/images/planar_hopping.gif' width='800'>
 
 While the research accomplished with this robot is the subject of an [upcoming paper](../../publication/lynch20xxplanar) (in preparation), this portfolio entry goes into detail on the engineering that went into the robot.
+The initial design and build took place over six months in 2018, in collaboration with several teammates in Robot Design Studio (a capstone mechanical & electrical engineering course at Northwestern).
+The mechanical design remained largely unchanged, but I overhauled the electrical system when I started doing experiments with the robot.
 
 <img src='/images/robotcollage.png'>
 
