@@ -51,6 +51,20 @@ This reduces Joule heating at the motor windings (a negative side-effect of the 
 The boom is long enough and the robot hops slowly enough that centripedal forces are small compared to contact forces and the robot's weight.
 
 ## Electrical Design
+The entire experimental apparatus (control computer, robot leg, boom, and fluidized bed) consists of a number of devices ("nodes") connected by a Controller Area Network (CAN) bus running at 1 Mbps.
+
+![simple CAN bus diagram](/images/canbus_simple.svg)
+
+The lab PC, a Linux desktop running Ubuntu, handles high-level trajectory planning and control computations inside a 1 kHz thread and uses a PCIe CAN card to interface with the CAN bus.
+
+The robot leg itself consists of three joint control nodes, one per actuator. The figure below shows the schematic, front (red) and back (blue) PCB layout, and a photo of the joint control PCBs installed on the leg and connected to the joint encoders (below the joint control PCBs).
+
+![joint control PCBs and joint encoders](/images/motor_control_pcb.svg)
+
+Likewise, the boom also consists of three nodes, one per rotation axis.
+Finally, the fluidized bed uses one node to interface with the CAN bus.
+Aside from the lab PC, every other node on the CAN bus is built around a Texas Instruments TM4C123GH6PM ARM Cortex M4 microcontroller with an 80 MHz clock and a variety of peripherals.
+
 
 ### Motor Control
 There are several commutation schemes for BLDC motors: trapezoidal commutation, sinusoidal commutation, and field-oriented control (FOC).
@@ -63,7 +77,7 @@ The PCB also converts single-ended Hall effect signals from the motor into diffe
 I used a laser cutter and a 3D printer to make a simple lightweight frame that locates the PCB properly above the motor shaft.
 The entire package (motor, custom PCB, and PLA/acrylic PCB mounting frame) is shown in the picture below.
 
-<img src='/images/maxon_package.png'>
+<img src='/images/maxon_package.svg'>
 
 ### Mitigating Electromagnetic Interference
 All three BLDC commutation schemes use PWM to set the current flowing through each of the three phases (U,V,W) in a BLDC motor.
@@ -71,6 +85,9 @@ In turn, when the requested phase currents and voltages are high (as is the case
 This is done in two parts:
 1. Motor phase cables are shielded, to keep EMI _in_;
 2. All logic level signals that run along the boom (alongside the motor phase cables) are differential (RS-422) and are carried by shielded cables, to keep EMI _out_.
+
+The diagram below shows the combination of shielding and RS-422 transceivers, for a single actuator, used to mitigate EMI.
+![signals and shielding diagram for one actuator](/images/signals_and_shielding_diagram_one_actuator.png)
 
 The amplifiers are housed in a steel electrical enclosure, shown below, along with custom RS-422-to-single-ended transceiver PCBs. The steel enclosure further mitigates EMI.
 
