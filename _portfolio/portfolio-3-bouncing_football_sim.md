@@ -25,7 +25,7 @@ We can always multiply a tangent vector \\(\dot{T}\in\mathsf{T}\_{T}\mathsf{SE}(
 Left-trivialization and right-trivialization allow us to identify the tangent bundle \\(\mathsf{TSE}(3)\\) with \\(\mathsf{SE}(3)\times\mathfrak{se}(3)\\).
 Conveniently, \\(\mathfrak{se}(3)\\) is isomorphic to \\(\mathbb{R}^6\\), the space of _twists_.
 Thus, we consider the state of the rigid body as consisting of its configuration \\(T\in\mathsf{SE}(3)\\) and its twist \\(\mathcal{V}\in\mathbb{R}^6\\).
-Left-trivialization leads to _body twists_: \\(\mathcal{V}\_\mathrm{b} = T\_\mathrm{wb}^{-1}\dot{T}\_\mathrm{wb}\\), and right-trivialization leads to _spatial twists_: \\(\mathcal{V}\_s = \dot{T}\_\mathrm{wb}T\_\mathrm{wb}^{-1}\\).
+Left-trivialization leads to _body twists_: \\(\mathcal{V}\_\mathrm{b} \cong T\_\mathrm{wb}^{-1}\dot{T}\_\mathrm{wb}\\), and right-trivialization leads to _spatial twists_: \\(\mathcal{V}\_s \cong \dot{T}\_\mathrm{wb}T\_\mathrm{wb}^{-1}\\).
 The remainder of this portfolio entry deals with left-trivialization; the approach for right-trivialization is essentially the same.
 
 The left-trivialized equations of motion (i.e., equation of motion in the body frame) for a single rigid-body moving in three-dimensional space under the influence of gravity are
@@ -33,7 +33,7 @@ The left-trivialized equations of motion (i.e., equation of motion in the body f
 $$
 \begin{align}
 \dot{T}_\mathrm{wb} &= T_\mathrm{wb}\left[\mathcal{V}_\mathrm{b}\right],\\
-\dot{V}_\mathrm{b} &= \mathcal{G}_\mathrm{b}^{-1}\left(\left[\mathrm{ad}_{\mathcal{V}_\mathrm{b}}\right]^\top\mathcal{G}_\mathrm{b}\mathcal{V}_\mathrm{b} + \mathcal{F}_\mathrm{b}^\mathrm{grav}\right),
+\dot{\mathcal{V}}_\mathrm{b} &= \mathcal{G}_\mathrm{b}^{-1}\left(\left[\mathrm{ad}_{\mathcal{V}_\mathrm{b}}\right]^\top\mathcal{G}_\mathrm{b}\mathcal{V}_\mathrm{b} + \mathcal{F}_\mathrm{b}^\mathrm{grav}\right),
 \end{align}
 $$
 
@@ -178,7 +178,7 @@ $$
 
 For example, when \\(p_0 = \left[0,0,0\right]^\top\\) and \\(\hat{n} = \left[0,0,1\right]^\top\\), the ground is simply the x-y plane in the world frame.
 
-To find the point \\(c\in\mathbb{R}^3\\) on the ellipsoid closes to the ground plane, we substitute \\(-\hat{n}\\) for \\(\hat{e}\\) and \\(c - p_\mathrm{wb}\\) for \\(q\\) in the equation above, and solve for \\(c\\):
+To find the point \\(c\in\mathbb{R}^3\\) on the ellipsoid closest to the ground plane, we substitute \\(-\hat{n}\\) for \\(\hat{e}\\) and \\(c - p_\mathrm{wb}\\) for \\(q\\) in the equation above, and solve for \\(c\\):
 
 $$
 \begin{align*}
