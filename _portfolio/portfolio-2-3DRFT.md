@@ -1,11 +1,13 @@
 ---
 title: "Fast(er) 3D Resistive Force Theory"
-excerpt: "This is a vectorized implementation of 3D resistive force theory (Agarwal et al., PNAS 2023) with support for custom intruder geometries.<br/><img src='/images/500x300.png' width='500'>"
+excerpt: "This is a vectorized implementation of 3D resistive force theory (Agarwal et al., PNAS 2023) with support for custom intruder geometries.<br/><img src='/images/3D-RFT_illustrative_example.png' width='500'>"
 collection: portfolio
 ---
+Under construction!\
+This is a vectorized implementation of 3D resistive force theory (Agarwal et al., PNAS 2023) with support for custom intruder geometries.
 
+<img src='/images/3D-RFT_illustrative_example.png' width='500'>
 
-Under construction!
-<!-- This simple project combines a geometric integrator and event detection to simulate an American football (or a rugby ball!) tumbling through the air and bouncing on a hard surface.
-<img src='/images/bouncing_football_trace_CoM.svg'>
-You can get the source code from [my GitHub repo](https://github.com/dlynch7/geom_rbdyn_impacts/). -->
+<img src='/images/3DRFT_bunny_const_twist_anim.gif'>
+
+<img src='/images/sphere_screws_simplified.png' width='500'>
