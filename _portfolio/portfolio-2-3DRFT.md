@@ -5,6 +5,7 @@ collection: portfolio
 ---
 Under construction!\
 This is a vectorized implementation of 3D resistive force theory (Agarwal et al., PNAS 2023) with support for custom intruder geometries.
+You can get the source code from [my GitHub repo](https://github.com/dlynch7/3DRFT).
 
 <img src='/images/3D-RFT_illustrative_example.png' width='500'>
 
