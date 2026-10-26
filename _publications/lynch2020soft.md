@@ -3,7 +3,7 @@ title: "The Soft-Landing Problem: Minimizing Energy Loss by a Legged Robot Impac
 collection: publications
 category: manuscripts
 permalink: /publication/lynch2020soft
-excerpt: 'This paper examines the so-called &quot;soft-landing problem&quot; for a robot hopping on yielding substrates (e.g., granular media): given some impact momentum, bring the robot to rest while minimizing foot penetration depth. I derive the theoretically optimal landing strategy in terms of minimizing energy dissipated by the ground and compare it to the best case achievable with simple impedance control, which turns out to perform nearly as well. I validate these results with systematic experiments using a custom-built robot impacting a prepared bed of granular media.'
+excerpt: "<img src='/images/soft_landing_graphical_abstract.png' width='600'><br/><br/>This paper examines the so-called &quot;soft-landing problem&quot; for a robot hopping on yielding substrates (e.g., granular media): given some impact momentum, bring the robot to rest while minimizing foot penetration depth. I derive the theoretically optimal landing strategy in terms of minimizing energy dissipated by the ground and compare it to the best case achievable with simple impedance control, which turns out to perform nearly as well. I validate these results with systematic experiments using a custom-built robot impacting a prepared bed of granular media."
 date: 2020-02-28
 venue: 'IEEE Transactions on Robotics'
 # slidesurl: 'https://academicpages.github.io/files/slides1.pdf'

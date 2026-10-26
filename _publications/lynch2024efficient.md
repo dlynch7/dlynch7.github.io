@@ -3,7 +3,7 @@ title: "Efficient, Responsive, and Robust Hopping on Deformable Terrain"
 collection: publications
 category: manuscripts
 permalink: /publication/lynch2024efficient
-excerpt: 'This paper addresses the hop-to-hop energy dynamics of a simple vertically-constrained monopedal hopping robot. I examine how the energy dynamics is affected by irrecoverable energy loss through plastic terrain deformation underfoot, which in turn depends on the foot depth and the forces the robot applies during stance. Vertical hopping provides a simple setting in which to study the interplay between foot-ground interaction, plastic terrain deformation, and hop-to-hop energy dynamics.'
+excerpt: "<img src='/images/vertical_hopping_graphical_abstract.png' width='600'><br/><br/>This paper addresses the hop-to-hop energy dynamics of a simple vertically-constrained monopedal hopping robot. I examine how the energy dynamics is affected by irrecoverable energy loss through plastic terrain deformation underfoot, which in turn depends on the foot depth and the forces the robot applies during stance. Vertical hopping provides a simple setting in which to study the interplay between foot-ground interaction, plastic terrain deformation, and hop-to-hop energy dynamics."
 date: 2024-12-05
 venue: 'IEEE Transactions on Robotics'
 # slidesurl: 'https://academicpages.github.io/files/slides2.pdf'

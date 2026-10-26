@@ -3,7 +3,7 @@ title: "A Template-and-Anchor Approach to Dynamic Legged Locomotion on Yielding 
 collection: publications
 category: inprep
 permalink: /publication/lynch20xxplanar
-excerpt: ''
+excerpt: "<img src='/images/planar_hopping.gif' width='600'>"
 date: 20xx-xx-xx
 venue: 'N/A'
 # paperurl: 'https://academicpages.github.io/files/paper3.pdf'
