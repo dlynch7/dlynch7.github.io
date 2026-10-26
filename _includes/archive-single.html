@@ -39,7 +39,35 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <!-- {% if post.start_date and post.end_date %}
+            {% assign start_year  = post.start_date | date: "%Y" %}
+            {% assign end_year    = post.end_date   | date: "%Y" %}
+            {% assign start_month = post.start_date | date: "%B" %}
+            {% assign end_month   = post.end_date   | date: "%B" %}
+            {% assign start_day   = post.start_date | date: "%-d" %}
+            {% assign end_day     = post.end_date   | date: "%-d" %}
+
+            <span class="event-date">
+              {% if post.start_date == post.end_date %}
+                {% comment %} Case 1: Same day (e.g., October 25, 2026) {% endcomment %}
+                <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.start_date | date: "%B %-d, %Y" }} </p>
+
+              {% elsif start_year != end_year %}
+                {% comment %} Case 2: Different years (e.g., Dec 30, 2025 - Jan 2, 2026) {% endcomment %}
+                <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.start_date | date: "%B %-d, %Y" }} - {{ post.end_date | date: "%B %-d, %Y" }} </p>
+
+              {% elsif start_month != end_month %}
+                {% comment %} Case 3: Same year, different months (e.g., October 28 - November 2, 2026) {% endcomment %}
+                <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.start_date | date: "%B %-d" }} - {{ post.end_date | date: "%B %-d, %Y" }} </p>
+
+              {% else %}
+                {% comment %} Case 4: Same year, same month (e.g., October 25-27, 2026) {% endcomment %}
+                <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ start_month }} {{ start_day }}-{{ end_day }}, {{ start_year }} </p>
+              {% endif %}
+            </span>
+          {% endif %} -->
+          <!-- <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p> -->
+          <p> {{ post.type }}, <i>{{ post.venue }}</i> </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
