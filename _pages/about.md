@@ -10,7 +10,7 @@ redirect_from:
 My name is Dan Lynch, and I am a postdoc in Mechanical Engineering at Northwestern University (Evanston, IL).
 My research interests include limbed locomotion for robotic exploration in complex environments, nonlinear dynamics, geometric mechanics and control, granular rheology, fluid mechanics, and gait rehabilitation and prosthetics.
 
-I completed my Ph.D. in Mechanical Engineering in September 2026, and my dissertation topic was "Dynamic Legged Robotic Locomotion on Yielding Terrain".
+I obtained my Ph.D. in Mechanical Engineering from Northwestern University in September 2026, and my dissertation topic was "Dynamic Legged Robotic Locomotion on Yielding Terrain".
 I work under the supervision of Prof. Kevin M. Lynch (no relation!) and Prof. Paul B. Umbanhowar at the [Center for Robotics and Biosystems](https://robotics.northwestern.edu/) at Northwestern University.
 Besides Kevin and Paul, the other members of my committee were Jason Pusey (DEVCOM Army Research Laboratory) and Prof. Aaron M. Johnson (Carnegie Mellon University).
 
