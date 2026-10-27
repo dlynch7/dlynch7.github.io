@@ -5,7 +5,7 @@ type: "Oral Presentation"
 permalink: /talks/2022APSMM
 venue: "2022 March Meeting of the American Physical Society"
 date: 2022-03-16
-location: "Las Vegas, NV, USA"
+location: "Chicago, IL, USA"
 ---
 
 
