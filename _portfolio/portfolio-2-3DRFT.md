@@ -11,7 +11,7 @@ You can get the source code from [my GitHub repo](https://github.com/dlynch7/3DR
 
 ## What is Resistive Force Theory?
 Resistive force theory (RFT) is a numerical method that models the resistive force and torque experienced by an object as it moves through a resistive medium (e.g., a fluid).
-The fundamental assumption underpinning RFT is that \\(\mathcal{F}\_\mathrm{f}\\) is the _linear superposition_ of the infinitesimal forces on each element of the intruder's surface.
+The fundamental assumption underpinning RFT is that the resistive force and torque (together, the resistive wrench) is the _linear superposition_ of the infinitesimal forces on each element of the intruder's surface.
 This is a drastic simplification compared to solving a system of partial differential equations (if they are even known) that model the bulk behavior of the resistive medium in response to the moving intruder.
 
 RFT was originally applied to low-Reynolds-number fluids ([Gray and Hancock, JEB, 1955](https://doi.org/10.1242/jeb.32.4.802)) but, more recently, it has turned out to work quite well for granular media.
