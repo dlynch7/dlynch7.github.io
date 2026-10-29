@@ -24,39 +24,39 @@ Geometrically, the state space of a rigid body moving in three-dimensional space
 We can always multiply a tangent vector \\(\dot{T}\in\mathsf{T}\_{T}\mathsf{SE}(3)\\) by \\(T^{-1}\\), either by left-multiplication or right-multiplication, to bring it back to the tangent space at the identity \\(\mathsf{T}\_{I}\mathsf{SE}(3) \cong \mathfrak{se}(3)\\); multiplying \\(T^{-1}\dot{T}\\) is called left-trivialization, and multiplying \\(\dot{T} T^{-1}\\) is called right-trivialization.
 Left-trivialization and right-trivialization allow us to identify the tangent bundle \\(\mathsf{TSE}(3)\\) with \\(\mathsf{SE}(3)\times\mathfrak{se}(3)\\).
 Conveniently, \\(\mathfrak{se}(3)\\) is isomorphic to \\(\mathbb{R}^6\\), the space of _twists_.
-Thus, we consider the state of the rigid body as consisting of its configuration \\(T\in\mathsf{SE}(3)\\) and its twist \\(\mathcal{V}\in\mathbb{R}^6\\).
-Left-trivialization leads to _body twists_: \\(\mathcal{V}\_\mathrm{b} \cong T\_\mathrm{wb}^{-1}\dot{T}\_\mathrm{wb}\\), and right-trivialization leads to _spatial twists_: \\(\mathcal{V}\_s \cong \dot{T}\_\mathrm{wb}T\_\mathrm{wb}^{-1}\\).
+Thus, we interpret the state space as \\(\mathsf{SE}(3)\times\mathbb{R}^6\\), so the state of the rigid body consists of its configuration \\(T\in\mathsf{SE}(3)\\) and its twist \\(\mathcal{V}\in\mathbb{R}^6\\).
+Left-trivialization leads to _body twists_: \\(\mathcal{V}\_\mathrm{b} \cong \hat{\mathcal{V}}\_\mathrm{b} \triangleq T\_\mathrm{wb}^{-1}\dot{T}\_\mathrm{wb}\\), and right-trivialization leads to _spatial twists_: \\(\mathcal{V}\_\mathrm{w} \cong \hat{\mathcal{V}}\_\mathrm{w} \triangleq \dot{T}\_\mathrm{wb}T\_\mathrm{wb}^{-1}\\).
 The remainder of this portfolio entry deals with left-trivialization; the approach for right-trivialization is essentially the same.
 
 The left-trivialized equations of motion (i.e., equation of motion in the body frame) for a single rigid-body moving in three-dimensional space under the influence of gravity are
 
 $$
 \begin{align}
-\dot{T}_\mathrm{wb} &= T_\mathrm{wb}\left[\mathcal{V}_\mathrm{b}\right],\\
+\dot{T}_\mathrm{wb} &= T_\mathrm{wb}\hat{\mathcal{V}}_\mathrm{b},\\
 \dot{\mathcal{V}}_\mathrm{b} &= \mathcal{G}_\mathrm{b}^{-1}\left(\left[\mathrm{ad}_{\mathcal{V}_\mathrm{b}}\right]^\top\mathcal{G}_\mathrm{b}\mathcal{V}_\mathrm{b} + \mathcal{F}_\mathrm{b}^\mathrm{grav}\right),
 \end{align}
 $$
 
 where
 * \\(T_\mathrm{wb}\in\mathsf{SE}(3)\\) is the configuration of the body's center-of-mass (COM) frame \\(\\{\mathrm{b}\\}\\) relative to the inertial world frame \\(\\{\mathrm{w}\\}\\);
-* \\(\left[\mathcal{V}\_\mathrm{b}\right]\in\mathfrak{se}(3)\\) is the matrix representation of the body twist \\(\mathcal{V}\_\mathrm{b}\in\mathbb{R}^6\\), where \\(\mathcal{V}\_\mathrm{b} = \left[\omega\_\mathrm{b}^\top,v\_\mathrm{b}^\top\right]^\top\\), where \\(\omega_\mathrm{b}\in\mathbb{R}^3\\) and \\(v_\mathrm{b}\in\mathbb{R}^3\\) are the angular and linear velocity, respectively, of \\(\\{\mathrm{b}\\}\\) expressed in \\(\\{\mathrm{b}\\}\\);
+* \\(\hat{\mathcal{V}}\_\mathrm{b}\in\mathfrak{se}(3)\\) is the matrix representation of the body twist \\(\mathcal{V}\_\mathrm{b}\in\mathbb{R}^6\\), where \\(\mathcal{V}\_\mathrm{b} = \left[\omega\_\mathrm{b}^\top,v\_\mathrm{b}^\top\right]^\top\\), where \\(\omega_\mathrm{b}\in\mathbb{R}^3\\) and \\(v_\mathrm{b}\in\mathbb{R}^3\\) are the angular and linear velocity, respectively, of \\(\\{\mathrm{b}\\}\\) expressed in \\(\\{\mathrm{b}\\}\\);
 * \\(\mathcal{G}\_\mathrm{b}\in\mathbb{R}^{6\times 6}\\) is the body's generalized inertia tensor; \\(\mathcal{G}\_\mathrm{b}\\) is a diagonal matrix with \\(\left(\mathcal{I}\_\mathrm{xx},\mathcal{I}\_\mathrm{yy},\mathcal{I}\_\mathrm{zz},m,m,m\right)\\) along the diagonal, where \\(\left(\mathcal{I}\_\mathrm{xx},\mathcal{I}\_\mathrm{yy},\mathcal{I}\_\mathrm{zz}\right)\\) are the moments of inertia about the principal axes and \\(m\\) is the body's mass;
 * \\(\left[\mathrm{ad}_{\mathcal{V}\_\mathrm{b}}\right]\in\mathbb{R}^{6\times 6}\\) is the adjoint representation of the body twist \\(\mathcal{V}\_\mathrm{b}\\):
 
 $$
 \left[\mathrm{ad}_{\mathcal{V}_\mathrm{b}}\right]\in\mathbb{R}^{6\times 6} = 
 \begin{bmatrix}
-\left[\omega_\mathrm{b}\right] & 0_{3\times 3}\\
-\left[v_\mathrm{b}\right] & \left[\omega_\mathrm{b}\right]
+\hat{\omega}_\mathrm{b} & 0_{3\times 3}\\
+\hat{v}_\mathrm{b} & \hat{\omega}_\mathrm{b}
 \end{bmatrix},
 $$
-where \\(\left[\omega\_\mathrm{b}\right]\\) and \\(\left[v\_\mathrm{b}\right]\\) are 3-by-3 skew-symmetric matrix representations of the body-frame angular velocity \\(\omega\_\mathrm{b}\in\mathbb{R}^3\\) and linear velocity \\(v\_\mathrm{b}\in\mathbb{R}^3\\), respectively;
+where \\(\hat{\omega}\_\mathrm{b}\\) and \\(\hat{v}\_\mathrm{b}\\) are 3-by-3 skew-symmetric matrix representations of the body-frame angular velocity \\(\omega\_\mathrm{b}\in\mathbb{R}^3\\) and linear velocity \\(v\_\mathrm{b}\in\mathbb{R}^3\\), respectively;
 * \\(\mathcal{F}\_\mathrm{b}^\mathrm{grav}\in\mathbb{R}^6\\) is the wrench on the body, expressed in \\(\\{\mathrm{b}\\}\\), due to gravity:
 
 $$
 \mathcal{F}_\mathrm{b}^\mathrm{grav} = \begin{bmatrix}
-R_\mathrm{wb} & 0_\mathrm{3\times 3}\\
-0_\mathrm{3\times 3} & R_\mathrm{wb}
+R_\mathrm{wb}^\top & 0_\mathrm{3\times 3}\\
+0_\mathrm{3\times 3} & R_\mathrm{wb}R_\mathrm{wb}^\top
 \end{bmatrix}
 \begin{bmatrix}
 0_{5\times 1}\\
