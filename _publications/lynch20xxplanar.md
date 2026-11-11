@@ -9,6 +9,9 @@ venue: 'N/A'
 # paperurl: 'https://academicpages.github.io/files/paper3.pdf'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
+In preparation, please stay tuned!
+<img src='/images/planar_hopping.gif' width='800'>
+
 Abstract
 ===
 Complex terrain, where legged robots have the potential to outperform wheeled or tracked robots, is difficult to model, and model-based approaches to planning and control for legged locomotion have been largely confined to substrates that are easily modeled.
